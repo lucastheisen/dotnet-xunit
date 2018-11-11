@@ -65,4 +65,4 @@ if [ 0 != $FAILED ]; then
   exit $FAILED
 fi
 
-echo "Done!"
+echo -e "\n\n\nCI Release Done!\n"

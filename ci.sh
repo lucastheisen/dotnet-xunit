@@ -15,3 +15,5 @@ PROJECTS=" \
   "$DIR/test.sh"
 
 "$DIR/release.sh"
+
+echo -e "\n\n\nCI Done!\n"
