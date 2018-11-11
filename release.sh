@@ -30,6 +30,7 @@ fi
 git tag -am "Release $GIT_TAG" "$GIT_TAG"
 git push __CI__ "$GIT_TAG"
 
+rm -rf "$ARTIFACTS_DIR/*.nupkg"
 dotnet pack \
   --no-restore \
   --no-build \
