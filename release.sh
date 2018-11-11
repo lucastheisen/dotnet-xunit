@@ -2,6 +2,8 @@
 
 set -e
 
+echo -e "\n\n\nCI Release\n"
+
 DIR=$(dirname "$(readlink -f "$0")")
 ARTIFACTS_DIR="${TEST_RESULTS_DIR:-$DIR/build}"
 REMOTE_REPO_URL="${REMOTE_REPO_URL:-$(git remote get-url origin)}"
@@ -32,6 +34,7 @@ git push __CI__ "$GIT_TAG"
 
 rm -rf "$ARTIFACTS_DIR"/*.nupkg
 dotnet pack \
+  --configuration Release \
   --no-restore \
   --no-build \
   --include-symbols \

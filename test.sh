@@ -15,6 +15,7 @@ for PROJECT in $PROJECTS; do
 
   set +e
   dotnet test \
+    --configuration Release \
     --no-restore \
     --no-build \
     --logger "trx;LogFileName=$PROJECT_RESULTS_FILE" \

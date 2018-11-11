@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastdev.Dotnet.Xunit.Math.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastdev.Dotnet.Xunit.Math.IntegrationTest", "test\Pastdev.Dotnet.Xunit.Math.IntegrationTest\Pastdev.Dotnet.Xunit.Math.IntegrationTest.csproj", "{5A11B86E-554D-4B23-AD4A-D449284459CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pastdev.Dotnet.Xunit.Command", "src\Pastdev.Dotnet.Xunit.Command\Pastdev.Dotnet.Xunit.Command.csproj", "{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,10 +64,23 @@ Global
 		{5A11B86E-554D-4B23-AD4A-D449284459CD}.Release|x64.Build.0 = Release|Any CPU
 		{5A11B86E-554D-4B23-AD4A-D449284459CD}.Release|x86.ActiveCfg = Release|Any CPU
 		{5A11B86E-554D-4B23-AD4A-D449284459CD}.Release|x86.Build.0 = Release|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Debug|x64.Build.0 = Debug|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Debug|x86.Build.0 = Debug|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Release|x64.ActiveCfg = Release|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Release|x64.Build.0 = Release|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Release|x86.ActiveCfg = Release|Any CPU
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8152E7F-D6F1-4C3D-BE3E-4522C6554B6B} = {6112DA14-9A06-4F5A-A09D-BEDEC6A32021}
 		{44C988AB-B8E9-4D6C-B43B-423D08CF161B} = {EEC9802E-BD82-408A-8E18-6F1BD9546774}
 		{5A11B86E-554D-4B23-AD4A-D449284459CD} = {EEC9802E-BD82-408A-8E18-6F1BD9546774}
+		{1123C2BB-414B-45DC-ABB9-0FF6A88D2C8E} = {6112DA14-9A06-4F5A-A09D-BEDEC6A32021}
 	EndGlobalSection
 EndGlobal
