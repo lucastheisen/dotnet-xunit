@@ -8,7 +8,6 @@ namespace Pastdev.Dotnet.Xunit.Math.IntegrationTest
         [Fact]
         public void Test1()
         {
-            Assert.True(false, "WTF");
         }
     }
 }

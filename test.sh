@@ -2,6 +2,8 @@
 
 set -e
 
+echo -e "\n\n\nCI Test\n"
+
 DIR=$(dirname "$(readlink -f "$0")")
 TEST_ROOT_DIR="${TEST_ROOT_DIR:-test}"
 TEST_RESULTS_DIR="${TEST_RESULTS_DIR:-$DIR/build/}"
