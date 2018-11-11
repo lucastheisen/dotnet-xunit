@@ -9,3 +9,7 @@
 obj
 bin
 build
+.store
+
+# nerdbank
+nbgv
