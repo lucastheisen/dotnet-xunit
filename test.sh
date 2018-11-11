@@ -36,4 +36,4 @@ if [ 0 != $FAILED ]; then
   exit $FAILED
 fi
 
-echo -e "\n\n\nCI Test Done!\n"
+echo -e "\nCI Test Done!\n"

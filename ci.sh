@@ -16,4 +16,4 @@ PROJECTS=" \
 
 "$DIR/release.sh"
 
-echo -e "\n\n\nCI Done!\n"
+echo -e "\nCI Done!\n"
