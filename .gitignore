@@ -13,3 +13,6 @@ build
 
 # nerdbank
 nbgv
+
+# local only
+nuget.key
