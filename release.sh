@@ -30,7 +30,7 @@ fi
 git tag -am "Release $GIT_TAG" "$GIT_TAG"
 git push __CI__ "$GIT_TAG"
 
-rm -rf "$ARTIFACTS_DIR/*.nupkg"
+rm -rf "$ARTIFACTS_DIR"/*.nupkg
 dotnet pack \
   --no-restore \
   --no-build \
@@ -39,7 +39,7 @@ dotnet pack \
   --output $ARTIFACTS_DIR
 
 FAILED=0
-for NUPKG in $ARTIFACTS_DIR/*.nupkg; do
+for NUPKG in "$ARTIFACTS_DIR"/*.nupkg; do
   echo "Pushing $NUPKG"
 
   if [[ "$NUPKG" =~ symbols.nupkg$ ]]; then
